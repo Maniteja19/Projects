@@ -2,12 +2,12 @@
 
 Projects made by me while learning the web development in Various ways with the help of instructors
 
-##Languages used
+## Languages used
 **JavaScript**
 **HTML**
 **CSS**
 
-###Frameworks and Libraries used
+### Frameworks and Libraries used
 **React**
 **Bootstrap**
 **JQuery**
