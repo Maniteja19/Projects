@@ -12,3 +12,5 @@ Projects made by me while learning the web development in Various ways with the 
 * React
 * Bootstrap
 * JQuery
+* styled-components
+* react-router
