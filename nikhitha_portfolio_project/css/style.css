@@ -65,11 +65,11 @@ body {
 .link a:hover {
   color: hotpink;
 }
-
 @media (max-width: 950px) {
   .navbar {
     justify-content: space-between;
     background-color: #bae8e8;
+    border-bottom: #e53170 5px solid;
   }
   .navbar .logo {
     font-size: 1.5rem;
@@ -98,6 +98,7 @@ body {
     align-items: center;
     list-style-type: none;
     display: none;
+    transition: all 1.1s ease-out;
   }
   .close-btn {
     width: 1.5em;
@@ -186,7 +187,7 @@ body {
   }
   .hero .hero_img {
     width: 78%;
-    height: 400px;
+    height: 600px;
     border-radius: 10px;
     order: 100;
     margin-bottom: 1.8em;
@@ -199,7 +200,7 @@ body {
     order: -1;
   }
   .hero .hero_content h1 {
-    font-size: 3.3rem;
+    font-size: 3rem;
     color: #fffffe;
     font-weight: 900;
     margin-bottom: 0;
@@ -208,6 +209,7 @@ body {
     display: none;
   }
 }
+
 .intro {
   color: white;
   display: flex;
