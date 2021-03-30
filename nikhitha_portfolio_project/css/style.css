@@ -75,6 +75,10 @@ body {
     font-size: 1.5rem;
     color: hotpink;
   }
+
+  .navbar .logo span {
+    display: none;
+  }
   .menu {
     width: 2.5em;
   }
