@@ -17,36 +17,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aqua;
   padding: 1rem;
   background-color: #2f2f2f;
 }
 .navbar .logo {
   transition: all 0.4s 0.4s ease-out;
-}
-.navbar .logo:hover {
-  transform: translateY(-10px);
-}
-.navbar h2 {
   font-size: 1.8rem;
   color: hotpink;
   margin-right: 7.8em;
 }
-.navbar button {
-  background: none;
-  outline: 0;
-  border: 0;
-  padding: 0;
-  margin: 0;
+.navbar .logo:hover {
+  transform: translateY(-10px);
 }
-.navbar button:hover {
-  cursor: pointer;
-}
-.navbar .dark-mode-toggler {
-  width: 30px;
-  height: 30px;
-  margin-left: 2em;
-}
+
 .links {
   display: flex;
   justify-content: space-between;
@@ -78,6 +61,60 @@ body {
   color: hotpink;
 }
 
+@media (max-width: 600px) {
+  .navbar {
+    justify-content: space-between;
+    background-color: #bae8e8;
+  }
+  .navbar .logo {
+    font-size: 1.5rem;
+    color: hotpink;
+  }
+  .menu {
+    color: white;
+    width: 2.5em;
+  }
+  .links {
+    display: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    width: 100vh;
+    height: 100vh;
+    color: #0f0e17;
+    padding: 0;
+    margin: 0;
+    z-index: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    display: none;
+  }
+  .close-btn {
+    width: 1.5em;
+    position: absolute;
+    top: 1.5em;
+    right: 2em;
+  }
+  .link {
+    color: black;
+    font-size: 1.5rem;
+  }
+  .link a {
+    display: block;
+    color: black;
+  }
+  .open-btn {
+    background-color: 0;
+    border: none;
+    outline: none;
+  }
+}
+
+.open-nav {
+  display: flex;
+}
 .animate {
   width: 100%;
 }
