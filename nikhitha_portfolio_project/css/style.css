@@ -29,7 +29,12 @@ body {
 .navbar .logo:hover {
   transform: translateY(-10px);
 }
-
+.open-btn {
+  display: none;
+}
+.close-btn {
+  display: none;
+}
 .links {
   display: flex;
   justify-content: space-between;
@@ -71,15 +76,14 @@ body {
     color: hotpink;
   }
   .menu {
-    color: white;
     width: 2.5em;
   }
   .links {
-    display: fixed;
+    position: fixed;
     top: 0;
     left: 0;
     background: white;
-    width: 100vh;
+    width: 100%;
     height: 100vh;
     color: #0f0e17;
     padding: 0;
@@ -95,7 +99,8 @@ body {
     width: 1.5em;
     position: absolute;
     top: 1.5em;
-    right: 2em;
+    right: 1em;
+    display: block;
   }
   .link {
     color: black;
@@ -109,6 +114,7 @@ body {
     background-color: 0;
     border: none;
     outline: none;
+    display: block;
   }
 }
 

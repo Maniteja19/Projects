@@ -5,7 +5,7 @@ let close = document.querySelector('.close-btn')
 let links = document.querySelector('.links')
 
 open.addEventListener('click', function () {
-    links.classList.add('open-nav')
+    links.style.display = "flex"
 })
 
 close.addEventListener('click', function () {
