@@ -3,7 +3,7 @@ export default function Story(story) {
     return `
       <div class="story">
         <div> 
-          <span class="gray">${story.index}</span>
+          <span class="gray">${story.index || ""}</span>
           <span class="upvote">▲</span>
           <a href="${story.url}" target="blank">${story.title}</a>
           <span>(${story.domain})</span>
@@ -17,7 +17,7 @@ export default function Story(story) {
             </a>
             |
             <span class="favorite">
-              <img class="heart" src="https://icon.now.sh/heart/ccc">
+              <img class="heart" src="https://img.icons8.com/android/24/000000/like.png">
               Add To Favorites
             </span>
           </div>
