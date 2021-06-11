@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 html,
 body {
   padding: 0;
   margin: 8px;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a:link {
@@ -11,7 +12,7 @@ a:link {
 }
 
 a:visited {
-  color: #828282;
+  color: rgb(101, 100, 233, 0.2);
   text-decoration: none;
 }
 
@@ -47,6 +48,14 @@ header .flex a {
 .story {
   padding-top: 0.25em;
   padding-bottom: 0.5em;
+}
+
+.story div a {
+  color: #33272a;
+}
+.story div a:visited {
+  color: #ff8ba7;
+  text-decoration: none;
 }
 
 hr {
@@ -130,7 +139,7 @@ input {
 }
 
 .header {
-  background-color: #ff6600;
+  background-color: hotpink;
   white-space: nowrap;
   padding: 0.5rem;
   color: black;
@@ -147,7 +156,10 @@ input {
   text-decoration: none;
   font-size: 1.1rem;
 }
-
+.header-title i {
+  color: #c3f0ca;
+  font-size: 1.3rem;
+}
 .header-logo {
   height: 21px;
   /* margin-bottom: -1px; */
@@ -189,7 +201,7 @@ textarea {
 }
 
 #route-container {
-  background-color: rgb(246, 246, 239);
+  background-color: #faeee7;
   padding: 0.5rem 1.2rem;
 }
 
